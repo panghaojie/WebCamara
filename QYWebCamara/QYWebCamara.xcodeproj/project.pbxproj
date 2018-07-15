@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A871943020FB0F68005CD633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871942F20FB0F68005CD633 /* AppDelegate.swift */; };
+		A871943220FB0F68005CD633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871943120FB0F68005CD633 /* ViewController.swift */; };
+		A871943520FB0F68005CD633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A871943320FB0F68005CD633 /* Main.storyboard */; };
+		A871943720FB0F6A005CD633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A871943620FB0F6A005CD633 /* Assets.xcassets */; };
+		A871943A20FB0F6A005CD633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A871943820FB0F6A005CD633 /* LaunchScreen.storyboard */; };
+		A871944520FB0F6A005CD633 /* QYWebCamaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871944420FB0F6A005CD633 /* QYWebCamaraTests.swift */; };
+		A871945020FB0F6A005CD633 /* QYWebCamaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A871944F20FB0F6A005CD633 /* QYWebCamaraUITests.swift */; };
+		A871945E20FB1763005CD633 /* webCamara.html in Resources */ = {isa = PBXBuildFile; fileRef = A871945D20FB1763005CD633 /* webCamara.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A871944120FB0F6A005CD633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A871942420FB0F68005CD633 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A871942B20FB0F68005CD633;
+			remoteInfo = QYWebCamara;
+		};
+		A871944C20FB0F6A005CD633 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A871942420FB0F68005CD633 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A871942B20FB0F68005CD633;
+			remoteInfo = QYWebCamara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A871942C20FB0F68005CD633 /* QYWebCamara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYWebCamara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A871942F20FB0F68005CD633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A871943120FB0F68005CD633 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A871943420FB0F68005CD633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A871943620FB0F6A005CD633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A871943920FB0F6A005CD633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A871943B20FB0F6A005CD633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A871944020FB0F6A005CD633 /* QYWebCamaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYWebCamaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A871944420FB0F6A005CD633 /* QYWebCamaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYWebCamaraTests.swift; sourceTree = "<group>"; };
+		A871944620FB0F6A005CD633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A871944B20FB0F6A005CD633 /* QYWebCamaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYWebCamaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A871944F20FB0F6A005CD633 /* QYWebCamaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYWebCamaraUITests.swift; sourceTree = "<group>"; };
+		A871945120FB0F6A005CD633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A871945D20FB1763005CD633 /* webCamara.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webCamara.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A871942920FB0F68005CD633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A871943D20FB0F6A005CD633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A871944820FB0F6A005CD633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A871942320FB0F68005CD633 = {
+			isa = PBXGroup;
+			children = (
+				A871942E20FB0F68005CD633 /* QYWebCamara */,
+				A871944320FB0F6A005CD633 /* QYWebCamaraTests */,
+				A871944E20FB0F6A005CD633 /* QYWebCamaraUITests */,
+				A871942D20FB0F68005CD633 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A871942D20FB0F68005CD633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A871942C20FB0F68005CD633 /* QYWebCamara.app */,
+				A871944020FB0F6A005CD633 /* QYWebCamaraTests.xctest */,
+				A871944B20FB0F6A005CD633 /* QYWebCamaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A871942E20FB0F68005CD633 /* QYWebCamara */ = {
+			isa = PBXGroup;
+			children = (
+				A871942F20FB0F68005CD633 /* AppDelegate.swift */,
+				A871943120FB0F68005CD633 /* ViewController.swift */,
+				A871945D20FB1763005CD633 /* webCamara.html */,
+				A871943320FB0F68005CD633 /* Main.storyboard */,
+				A871943620FB0F6A005CD633 /* Assets.xcassets */,
+				A871943820FB0F6A005CD633 /* LaunchScreen.storyboard */,
+				A871943B20FB0F6A005CD633 /* Info.plist */,
+			);
+			path = QYWebCamara;
+			sourceTree = "<group>";
+		};
+		A871944320FB0F6A005CD633 /* QYWebCamaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				A871944420FB0F6A005CD633 /* QYWebCamaraTests.swift */,
+				A871944620FB0F6A005CD633 /* Info.plist */,
+			);
+			path = QYWebCamaraTests;
+			sourceTree = "<group>";
+		};
+		A871944E20FB0F6A005CD633 /* QYWebCamaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A871944F20FB0F6A005CD633 /* QYWebCamaraUITests.swift */,
+				A871945120FB0F6A005CD633 /* Info.plist */,
+			);
+			path = QYWebCamaraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A871942B20FB0F68005CD633 /* QYWebCamara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A871945420FB0F6A005CD633 /* Build configuration list for PBXNativeTarget "QYWebCamara" */;
+			buildPhases = (
+				A871942820FB0F68005CD633 /* Sources */,
+				A871942920FB0F68005CD633 /* Frameworks */,
+				A871942A20FB0F68005CD633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYWebCamara;
+			productName = QYWebCamara;
+			productReference = A871942C20FB0F68005CD633 /* QYWebCamara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A871943F20FB0F6A005CD633 /* QYWebCamaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A871945720FB0F6A005CD633 /* Build configuration list for PBXNativeTarget "QYWebCamaraTests" */;
+			buildPhases = (
+				A871943C20FB0F6A005CD633 /* Sources */,
+				A871943D20FB0F6A005CD633 /* Frameworks */,
+				A871943E20FB0F6A005CD633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A871944220FB0F6A005CD633 /* PBXTargetDependency */,
+			);
+			name = QYWebCamaraTests;
+			productName = QYWebCamaraTests;
+			productReference = A871944020FB0F6A005CD633 /* QYWebCamaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A871944A20FB0F6A005CD633 /* QYWebCamaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A871945A20FB0F6A005CD633 /* Build configuration list for PBXNativeTarget "QYWebCamaraUITests" */;
+			buildPhases = (
+				A871944720FB0F6A005CD633 /* Sources */,
+				A871944820FB0F6A005CD633 /* Frameworks */,
+				A871944920FB0F6A005CD633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A871944D20FB0F6A005CD633 /* PBXTargetDependency */,
+			);
+			name = QYWebCamaraUITests;
+			productName = QYWebCamaraUITests;
+			productReference = A871944B20FB0F6A005CD633 /* QYWebCamaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A871942420FB0F68005CD633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = DevQiaoYu;
+				TargetAttributes = {
+					A871942B20FB0F68005CD633 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A871943F20FB0F6A005CD633 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A871942B20FB0F68005CD633;
+					};
+					A871944A20FB0F6A005CD633 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A871942B20FB0F68005CD633;
+					};
+				};
+			};
+			buildConfigurationList = A871942720FB0F68005CD633 /* Build configuration list for PBXProject "QYWebCamara" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A871942320FB0F68005CD633;
+			productRefGroup = A871942D20FB0F68005CD633 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A871942B20FB0F68005CD633 /* QYWebCamara */,
+				A871943F20FB0F6A005CD633 /* QYWebCamaraTests */,
+				A871944A20FB0F6A005CD633 /* QYWebCamaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A871942A20FB0F68005CD633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A871945E20FB1763005CD633 /* webCamara.html in Resources */,
+				A871943A20FB0F6A005CD633 /* LaunchScreen.storyboard in Resources */,
+				A871943720FB0F6A005CD633 /* Assets.xcassets in Resources */,
+				A871943520FB0F68005CD633 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A871943E20FB0F6A005CD633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A871944920FB0F6A005CD633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A871942820FB0F68005CD633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A871943220FB0F68005CD633 /* ViewController.swift in Sources */,
+				A871943020FB0F68005CD633 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A871943C20FB0F6A005CD633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A871944520FB0F6A005CD633 /* QYWebCamaraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A871944720FB0F6A005CD633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A871945020FB0F6A005CD633 /* QYWebCamaraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A871944220FB0F6A005CD633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A871942B20FB0F68005CD633 /* QYWebCamara */;
+			targetProxy = A871944120FB0F6A005CD633 /* PBXContainerItemProxy */;
+		};
+		A871944D20FB0F6A005CD633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A871942B20FB0F68005CD633 /* QYWebCamara */;
+			targetProxy = A871944C20FB0F6A005CD633 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A871943320FB0F68005CD633 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A871943420FB0F68005CD633 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A871943820FB0F6A005CD633 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A871943920FB0F6A005CD633 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A871945220FB0F6A005CD633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A871945320FB0F6A005CD633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A871945520FB0F6A005CD633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5WT6J9C28;
+				INFOPLIST_FILE = QYWebCamara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DevQiaoYu.QYWebCamara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A871945620FB0F6A005CD633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5WT6J9C28;
+				INFOPLIST_FILE = QYWebCamara/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DevQiaoYu.QYWebCamara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A871945820FB0F6A005CD633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5WT6J9C28;
+				INFOPLIST_FILE = QYWebCamaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DevQiaoYu.QYWebCamaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYWebCamara.app/QYWebCamara";
+			};
+			name = Debug;
+		};
+		A871945920FB0F6A005CD633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5WT6J9C28;
+				INFOPLIST_FILE = QYWebCamaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DevQiaoYu.QYWebCamaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYWebCamara.app/QYWebCamara";
+			};
+			name = Release;
+		};
+		A871945B20FB0F6A005CD633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5WT6J9C28;
+				INFOPLIST_FILE = QYWebCamaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DevQiaoYu.QYWebCamaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QYWebCamara;
+			};
+			name = Debug;
+		};
+		A871945C20FB0F6A005CD633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5WT6J9C28;
+				INFOPLIST_FILE = QYWebCamaraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DevQiaoYu.QYWebCamaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QYWebCamara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A871942720FB0F68005CD633 /* Build configuration list for PBXProject "QYWebCamara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A871945220FB0F6A005CD633 /* Debug */,
+				A871945320FB0F6A005CD633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A871945420FB0F6A005CD633 /* Build configuration list for PBXNativeTarget "QYWebCamara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A871945520FB0F6A005CD633 /* Debug */,
+				A871945620FB0F6A005CD633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A871945720FB0F6A005CD633 /* Build configuration list for PBXNativeTarget "QYWebCamaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A871945820FB0F6A005CD633 /* Debug */,
+				A871945920FB0F6A005CD633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A871945A20FB0F6A005CD633 /* Build configuration list for PBXNativeTarget "QYWebCamaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A871945B20FB0F6A005CD633 /* Debug */,
+				A871945C20FB0F6A005CD633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A871942420FB0F68005CD633 /* Project object */;
+}
